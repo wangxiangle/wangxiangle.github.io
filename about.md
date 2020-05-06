@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 
-# About page
+# 关于我
 
-This page tells you a little bit about me.
+一个不成器的Android开发工程师
+
