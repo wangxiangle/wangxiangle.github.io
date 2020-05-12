@@ -65,6 +65,11 @@ plugins:
 defaults:
   - scope:
       path: ""
+      type: "classifys"
+    value:
+      layout: "classify" 
+  - scope:
+      path: ""
       type: "authors"
     values:
       layout: "author"
