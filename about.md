@@ -3,6 +3,6 @@ layout: default
 title: Home
 ---
 
-# About page
+# 关于我
 
-This page tells you a little bit about me.
+一个不争气的码农，正在为了别人的梦想消耗自己的青春.

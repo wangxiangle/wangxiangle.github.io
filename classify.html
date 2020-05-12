@@ -1,0 +1,15 @@
+---
+layout: default
+title: Classify
+---
+<h1>分类</h1>
+
+<ul>
+  {% for classify in site.classifys %}
+    <li>
+      <h2><a href="{{ classify.url }}">{{ classify.name }}</a></h2>
+      <h3>{{ classify.position }}</h3>
+      <p>{{ classify.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>
