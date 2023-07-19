@@ -1,8 +1,8 @@
-- name: Home
+- name: 首页
   link: /
-- name: About
+- name: 关于
   link: /about.html
-- name: Blog
+- name: 博客
   link: /blog.html
-- name: Classify
+- name: 分类
   link: /classify.html
