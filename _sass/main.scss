@@ -1,3 +1,4 @@
+@use "sass:math";
 .current {
     color: black;
     width: fit-content;
@@ -6,8 +7,38 @@
 }
 
 .body_style {
-    width: fit-content;
-    margin-top: 50px;
-    margin-left: 250px;
-    margin-right: auto;
+    background-color: #e0e0e0;
+    padding: 20px;
+    // justify-content: center; // 水平居中
+    // width: fit-content;
+    // align-items: center; // 垂直居中
+    // height: 100vh; // 设置容器高度为视口高度
+    // margin-top: 50px;
+    // margin-left: 250px;
+    // margin-right: auto;
+}
+
+body {
+    margin: 0;
+    font-size: medium;
+    font-style: normal;
+    padding: 0;
+    padding-left: 200px;
+    padding-right: 20%;
+    justify-content: center; // 内容水平居中
+    align-items: center; // 内容垂直居中
+    min-height: 100vh; // 设置最小高度为视口高度
+    min-width: 100vw;
+}
+
+.container {
+    display: flex;
+    justify-content: center; // 内容水平居中
+    height: 100vh; // 设置容器高度为视口高度
+}
+
+// 示例样式
+.centered-content {
+    background-color: #e0e0e0;
+    padding: 20px;
 }

@@ -1,15 +1,12 @@
 ---
-layout: default
+layout: default 
 ---
-<h1>{{ page.title }}</h1>
+<h1>
+    {{ page.title }}
+</h1>
 
 <p>
-  {{ page.date | date_to_string }}
-  {% assign classify = site.classifys | where: 'short_name', page.classify | first %}
-  {% if classify %}
-    - <a href="{{ classify.url }}">{{ classify.name }}</a>
-  {% endif %}
+    {{ page.date | date: "%Y年%m月%d日 " }} {% assign classify = site.classifys | where: 'short_name', page.classify | first %} {% if classify %} - <a href="{{ classify.url }}">{{ classify.name }}</a> {% endif %}
 </p>
 
 {{ content }}
-

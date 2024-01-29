@@ -73,11 +73,6 @@ defaults:
       layout: "classify"
   - scope:
       path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
       type: "posts"
     values:
       layout: "post"
