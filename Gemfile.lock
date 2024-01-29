@@ -1,7 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
+<<<<<<< HEAD
     addressable (2.8.4)
+=======
+    addressable (2.8.1)
+>>>>>>> 0d596ed82f35d2b48335ccb4c579050470be71f7
       public_suffix (>= 2.0.2, < 6.0)
     colorator (1.1.0)
     concurrent-ruby (1.2.2)
@@ -57,8 +61,13 @@ GEM
       jekyll-seo-tag (~> 2.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
+<<<<<<< HEAD
     public_suffix (5.0.3)
     rb-fsevent (0.11.2)
+=======
+    public_suffix (5.0.0)
+    rb-fsevent (0.10.3)
+>>>>>>> 0d596ed82f35d2b48335ccb4c579050470be71f7
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
