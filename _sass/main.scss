@@ -1,9 +1,20 @@
 @use "sass:math";
+$font-color: black;
 .current {
     color: black;
     width: fit-content;
     margin: auto;
     font-size: 32px;
+    color: $font-color
+}
+
+a {
+    color: #007bff; // 设置超链接字体颜色
+    // text-decoration: none; // 去掉超链接的下划线
+}
+
+a:hover {
+    color: #0056b3; // 鼠标悬停时的字体颜色
 }
 
 .body_style {
@@ -29,6 +40,7 @@ body {
     align-items: center; // 内容垂直居中
     min-height: 100vh; // 设置最小高度为视口高度
     min-width: 100vw;
+    color: $font-color
 }
 
 .container {
